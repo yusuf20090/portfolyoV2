@@ -1,0 +1,87 @@
+@media (max-width:998px) {
+    .header__elements{
+        flex-direction: column-reverse;
+    }
+    .header__text{
+        text-align: center;
+    }
+    header{
+        padding: 80px 0px 80px 0px;
+        height: auto;
+    }
+    .abaut-me__elements{
+        gap: 32px;
+        align-items: flex-start;
+        
+    }
+    .skills__elements{
+        flex-wrap: wrap;
+        gap:  40px 20px;
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px) {
+    .nav__links{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--blackcolor);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(-100%);
+        transition: 0.5s;
+    }
+    .nav__links a{
+        color: var(--whitecolor);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .nav__links_active{
+        transform: translateY(0);
+        
+    }
+    .hamburger{
+        display: block;
+        
+    }
+    .nav__social a{
+        font-size: 32px;
+        
+    }
+    .nav__social{
+        gap: 32px;
+    }
+    h1{
+        font-size: 46px;
+    }
+    .abaut-me__elements{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    h2{
+        text-align: center;
+    }
+
+}
+@media(max-width:525px) {
+    h1{
+        font-size: 36px;
+    }
+    .skills__item{
+        max-width: 100%;
+        gap: 10px;
+    }
+    .skills__icon{
+        height: 100px;
+        width: 100%;
+    }
+    .footer__elements{
+        flex-direction: column;
+        gap: 16px;
+    }
+}

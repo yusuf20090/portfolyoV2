@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROWEB</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav__elements">
+                <a href="#" class="nav__logo">
+                    <img src="./img/nav__logo.svg" alt="">
+                </a>
+                <div class="nav__links">
+                    <a href="#abaut-me">Benim hakkımda</a>
+                    <a href="#skills">Yetenekler</a>
+                    <a href="#proje">Projelerim</a>
+                    <a href="#contacks">İletişim</a>
+                </div>
+                <div class="nav__social">
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="header__elements">
+                <div class="header__text">
+                    <h1>
+                        WEB - Geliştirici
+                        <br>
+                        12 yaşından itibaren
+                    </h1>
+                    <hr class="header__hr">
+                    <p>
+                        bu konuda ciddiyim!
+                    </p>
+                    <a href="#abaut-me">daha detaylı bilgi</a>
+                </div>
+                <img src="./img/header_img.png" alt="">
+            </div>
+        </div>
+
+
+    </header>
+    
+
+   
+    <section class="abaut-me" id="abaut-me">
+        <div class="container">
+            <h2>
+                Benim hakkımda
+            </h2>
+            <div class="abaut-me__elements">
+                <img src="./img/abautme_img.png" alt="">
+                <p>
+                    Programlamayı 10 yaşında öğrenmeye başladım ve şu anda sadece 13 yaşındayım, ancak şimdiden önemli
+                    bir
+                    başarı elde ettim ve sizi web uygulamaları oluşturma konusunda işbirliği yapmaya davet etmek
+                    istiyorum.
+                    Gerçekten çok çalışıyorum ve kodla neler yaratılabileceğine sürekli hayret ediyorum. Yeteneğim ve
+                    azmim,
+                    yaşın hedeflerinize ulaşmanıza engel olmadığını kanıtlıyor.
+                    <br>
+                    <br>
+                    Geleceğin parlak ve başarılı olacağına inanıyorum ve birlikte harika web uygulamaları
+                    yaratabileceğimizi
+                    umuyorum.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>
+                Yeteneklerim
+            </h2>
+            <div class="skills__elements">
+                <div class="skills__item">
+                    <div class="skills__icon">
+                        HTML
+                    </div>
+                    <P>
+                        HTML konusunda oldukça bilgiliyim ve HTML5 kullanarak web sayfaları oluşturabilir, içeriği
+                        yapılandırabilir ve tasarımları geliştirebilirim.
+                    </P>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__icon skills__icon_two">
+                        CSS
+                    </div>
+                    <P>
+                        CSS konusunda oldukça bilgiliyim ve görsel olarak çekici arayüzler oluşturmak için düzeni,
+                        tipografiyi ve renk düzenini değiştirebilirim.
+                    </P>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__icon">
+                        JS
+                    </div>
+                    <P>
+                        JavaScript konusunda bilgiliyim, dinamik web sayfaları oluşturabilir, HTML/CSS'yi yönetebilir ve
+                        işlevselliği geliştirebilirim.
+                    </P>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__icon skills__icon_two">
+                        FIGMA
+                    </div>
+                    <P>
+                        Figma konusunda bilgiliyim ve kullanıcı arayüzleri, maketler, prototipler ve yüksek kaliteli
+                        tasarımlar oluşturabilirim.
+                    </P>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="proje" id="proje">
+        <div class="container">
+            <h2>Projelerim</h2>
+            <div class="proje__elements">
+                <a href="https://ivantaxi.com.tr/" class="proje__link">
+                    <div class="proje__wrapper"></div>
+                    <div class="proje__content"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="iletisim" id="contacks">
+        <div class="container">
+            <h2>İletişim</h2>
+            <p>Bir istek bırakın, bir gün içinde sizinle iletişime geçeceğim!</p>
+            <hr>
+            <form>
+                <label for="name">İsminiz</label>
+                <input id="name" type="text" placeholder="isminisi yazın" required>
+                <label for="tel">Telefon</label>
+                <input id="tel" type="tel" placeholder="telefon numaranız" required>
+                <label for="message">Yorumunuz</label>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Yorumunuz"></textarea>
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer__elements">
+                <a href=""><img src="./img/nav__logo.svg" alt=""></a>
+                <p>Tüm haklar korunuyor ve Yusuf Ziya Çakır e aittir.</p>
+                <div class="footer__social">
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/0dfb09cd7e.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
